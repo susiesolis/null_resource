@@ -14,7 +14,7 @@ resource "null_resource" "null0" {
 }
 
 resource "null_resource" "null1" {
-  count = 9
+  count = 10
    triggers = {
     value = "EXAMPLE-2"
   }
