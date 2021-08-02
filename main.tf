@@ -6,13 +6,3 @@ resource "null_resource" "env" {
   }
 }
 
-variable "count1" {}
-
-resource "null_resource" "null0" {
-  count = var.count1
-  triggers = {
-    value = "EXAMPLE"
-  }
-}
-
-
