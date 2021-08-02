@@ -7,9 +7,10 @@ resource "null_resource" "env" {
 }
 
 resource "null_resource" "null0" {
-  count = 10000
+  count = var.count
   triggers = {
     value = "EXAMPLE"
   }
 }
+
 
