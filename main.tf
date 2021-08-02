@@ -1,7 +1,7 @@
 resource "null_resource" "null-1" {}
 variable "count1" {}
 
-resource "null_resource" "null" {
+resource "null_resource" "null0" {
   count = var.count1
   triggers = {
     value = "EXAMPLE"
