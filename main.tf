@@ -6,6 +6,8 @@ resource "null_resource" "env" {
   }
 }
 
+variable "count" {}
+
 resource "null_resource" "null0" {
   count = var.count
   triggers = {
