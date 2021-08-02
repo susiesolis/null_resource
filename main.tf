@@ -6,3 +6,9 @@ resource "null_resource" "env" {
   }
 }
 
+resource "null_resource" "null" {
+  provisioner "local-exec" {
+    command = "printenv"
+    interpreter = ["bash", "-c"]
+  }
+}
