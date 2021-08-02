@@ -1,4 +1,3 @@
-resource "null_resource" "null-1" {}
 variable "count1" {}
 
 resource "null_resource" "null0" {
