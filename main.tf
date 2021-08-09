@@ -1,4 +1,6 @@
-variable "count1" {}
+variable "count1" {
+default = 40
+}
 
 resource "null_resource" "null0" {
   count = var.count1
