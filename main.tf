@@ -1,5 +1,5 @@
 variable "count1" {
-default = 99
+default = 60
 }
 
 resource "null_resource" "null0" {
