@@ -10,7 +10,7 @@ terraform {
 
 
 variable "count1" {
-default = 1049
+default = 1054
 }
 
 resource "null_resource" "null0" {
