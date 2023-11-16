@@ -8,9 +8,7 @@ terraform {
 }
 
 
-variable "count2" {
-default = 1500
-}
+
 variable "count1" {
 default = 1500
 }
@@ -22,7 +20,7 @@ resource "null_resource" "null0" {
   }
 }
 resource "null_resource" "null01" {
-  count = var.count2
+  count = var.count1
   triggers = {
     value = "EXAMPLE"
   }
