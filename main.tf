@@ -12,8 +12,8 @@ terraform {
 variable "count1" {
 }
 
-variable "count2" {
-}
+#variable "count2" {
+#}
 
 resource "null_resource" "null0" {
   count = var.count1
